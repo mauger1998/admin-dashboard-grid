@@ -27,4 +27,6 @@
 }
 .content {
     background-color:lightgray;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
