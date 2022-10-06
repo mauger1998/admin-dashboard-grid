@@ -51,6 +51,7 @@
     background-color:white;
     border-radius:15px;
     
+    
 
 }
 .side-item2 {
@@ -95,6 +96,9 @@
 .buttons {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+}
+.flex-wrap {
+    display:flex;
 }
 
 
