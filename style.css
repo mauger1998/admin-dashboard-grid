@@ -122,6 +122,9 @@ button {
     justify-content: space-evenly;
     align-items: center;
 }
+.super {
+    grid-column: 1 / span 2;
+}
 
 
 
