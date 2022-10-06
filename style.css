@@ -65,6 +65,25 @@
     animation: slide-on 3s;
 }
 
+.sidebar h2 {
+    color:white;
+    padding:1rem;
+}
+
+.sidebar ul li {
+    color:white;
+    list-style: none;
+    padding:1em;
+    font-weight:700;
+}
+
+
+
+
+
+
+
+
 
 @keyframes slide-in {
     0% {
