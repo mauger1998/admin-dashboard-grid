@@ -76,6 +76,11 @@
     padding:1em;
     font-weight:700;
 }
+.sidebar {
+    display:grid;
+    grid-template-rows: 1fr 9fr;
+    gap:10px;
+}
 
 
 
