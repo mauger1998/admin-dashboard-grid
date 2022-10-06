@@ -39,6 +39,7 @@
     border:1px solid black;
     background-color: white;
     border-radius:15px;
+    animation:slide-in 3s;
     
     
 }
@@ -48,6 +49,7 @@
     border:1px solid black;
     background-color:white;
     border-radius:15px;
+    
 
 }
 .side-item2 {
@@ -56,4 +58,28 @@
     background-color: white;
     border:1px solid black;
     border-radius:15px;
+    
+}
+.side-item1,
+.side-item2 {
+    animation: slide-on 3s;
+}
+
+
+@keyframes slide-in {
+    0% {
+        transform:translateY(-350%);
+    }
+    100% {
+        transform:translateY(0%);
+    }
+}
+
+@keyframes slide-on {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform:translateX(0%);
+    }
 }
