@@ -102,6 +102,11 @@
 }
 input {
     width:30vw;
+    border-radius: 5px;
+    
+}
+.head-top-right-side {
+    display:flex;
 }
 
 
