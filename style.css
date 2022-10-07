@@ -67,6 +67,16 @@
     
 
 }
+#home {
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+}
 #announce {
     position: absolute;
     top:24.5vh;
