@@ -125,6 +125,26 @@ button {
 .super {
     grid-column: 1 / span 2;
 }
+.search-section > img {
+    width:30px;
+
+}
+.search-section {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:15px;
+    margin-left:20px;
+    margin-top:20px;
+}
+input {
+    border:none;
+    background-color:rgb(225, 224, 231);
+    border-radius:25px;
+}
+.head-top-right-side > img {
+    width:30px;
+}
 
 
 
