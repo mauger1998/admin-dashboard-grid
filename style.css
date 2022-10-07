@@ -67,6 +67,15 @@
     
 
 }
+#profile {
+    width:30px;
+
+}
+.profile-container {
+    display:flex;
+    align-items: center;
+    margin-left:10px;;
+}
 #home {
     width:30px;
     height:30px;
@@ -77,20 +86,19 @@
     align-items: center;
     margin-left:10px;
 }
-#announce {
-    position: absolute;
-    top:24.5vh;
-    left:75vw;
-}
+
+
 #project {
     position: absolute;
     top:24vh;
     left:28vw;
+    animation: announce-fade 5s;
 }
 #absolute {
     position:absolute;
     top:61vh;
     left:75vw;
+    animation: announce-fade 5s;
 }
 
 .side-item2 {
@@ -258,6 +266,37 @@ input {
 }
 .side-item2 {
     animation: side-from-bottom 2s;
+}
+#announce {
+    position: absolute;
+    top:24.5vh;
+    left:75vw;
+    animation: announce-fade 5s;
+}
+#message {
+    width:30px;
+}
+.message-container {
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#history {
+    width:30px;
+}
+.history-container {
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+@keyframes announce-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes side-from-bottom {
