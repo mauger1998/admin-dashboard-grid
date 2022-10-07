@@ -67,9 +67,14 @@
     
 
 }
+#project {
+    position: absolute;
+    top:24vh;
+    left:28vw;
+}
 #absolute {
     position:absolute;
-    top:60vh;
+    top:61vh;
     left:75vw;
 }
 
