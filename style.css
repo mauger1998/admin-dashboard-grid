@@ -147,13 +147,23 @@ input {
 }
 #pp {
     height:50px;
+    margin-left:20px;
 }
 .head-top-right-side {
     display:flex;
     align-items: center;
     justify-content: space-evenly;
 }
-
+#hi {
+    font-size:20px;
+}
+#h2 {
+    font-size:20px;
+}
+.flex-wrap {
+    display:flex;
+    gap:25px;
+} 
 
 
 
