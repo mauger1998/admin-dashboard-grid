@@ -142,8 +142,16 @@ input {
     background-color:rgb(225, 224, 231);
     border-radius:25px;
 }
-.head-top-right-side > img {
+#bell {
     width:30px;
+}
+#pp {
+    height:50px;
+}
+.head-top-right-side {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
