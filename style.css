@@ -67,6 +67,11 @@
     
 
 }
+#announce {
+    position: absolute;
+    top:24.5vh;
+    left:75vw;
+}
 #project {
     position: absolute;
     top:24vh;
