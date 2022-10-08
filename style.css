@@ -20,15 +20,16 @@
 
 }
 .sidebar {
-    background-color:rgb(140, 122, 220);;
+    background-color:#38bdf8;
     grid-row: 1 / span 2;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index:1000000;
-    border-radius:0px 25px 25px 0px;;
+    padding-left:20px;
+    
 
 }
 .content {
-    background-color:lightgray;
+    background-color:#e0f2fe;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
@@ -170,7 +171,7 @@ input {
 button {
     padding: 10px 30px;
     border-radius:25px;
-    background-color: rgb(146, 186, 231);
+    background-color: #0ea5e9;
     color:white;
     border:none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -289,6 +290,36 @@ input {
     align-items: center;
     margin-left: 10px;
 }
+
+input {
+    background-color:#e0f2fe;
+}
+.item {
+    transition: transform 0.5s;
+}
+.side-item1,
+.side-item2 {
+    transition: transform 0.5s;
+}
+/* Hover Effects */
+
+.item:hover {
+    cursor:pointer;
+    transform: scale(105%);
+    transition: transform 0.5s;
+}
+.side-item1:hover {
+    cursor:pointer;
+    transform: scale(105%);
+    transition: transform 0.5s;
+}
+.side-item2:hover {
+    cursor:pointer;
+    transform: scale(105%);
+    transition: transform 0.5s;
+}
+
+
 
 @keyframes announce-fade {
     0% {
