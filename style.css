@@ -293,6 +293,7 @@ input {
 
 input {
     background-color:#e0f2fe;
+    height:25px;
 }
 .item {
     transition: transform 0.5s;
@@ -304,6 +305,14 @@ input {
 button {
     transition: 0.5s;
     
+}
+.task-container > img {
+    width:30px;
+}
+.task-container {
+    display:flex;
+    align-items:center;
+    margin-left:10px;
 }
 /* Hover Effects */
 
@@ -327,6 +336,7 @@ button:hover {
     transition: transform 0.5s;
     cursor:pointer;
 }
+
 
 
 
