@@ -139,7 +139,7 @@
 }
 .sidebar {
     display:grid;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: 1fr 4fr 3fr;
     gap:10px;
 }
 .header {
@@ -313,6 +313,14 @@ button {
     display:flex;
     align-items:center;
     margin-left:10px;
+}
+.people-container > img {
+    width:30px;
+}
+.people-container {
+    display:flex;
+    margin-left: 10px;
+    align-items: center;
 }
 /* Hover Effects */
 
