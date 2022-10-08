@@ -301,6 +301,10 @@ input {
 .side-item2 {
     transition: transform 0.5s;
 }
+button {
+    transition: 0.5s;
+    
+}
 /* Hover Effects */
 
 .item:hover {
@@ -317,6 +321,11 @@ input {
     cursor:pointer;
     transform: scale(105%);
     transition: transform 0.5s;
+}
+button:hover {
+    transform: scale(110%);
+    transition: transform 0.5s;
+    cursor:pointer;
 }
 
 
